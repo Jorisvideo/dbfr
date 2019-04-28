@@ -76,9 +76,13 @@ bot.on("ready", () => {
 bot.on("messageCreate", (msg) => {
   const args = msg.content.split(" ").slice(1);
   const type = "user";//user ou bot (par defaut bot est choisi)
-  if(msg.content.startsWith === "test") {
-    if(!args) return console.log("Erreur, pas d'argument");
+  if(msg.content.startsWith("testu")) {
+    if(args.length == 0) return console.error("Erreur, pas d'argument");
     dbfr.get(type, args).then(r => { console.log(r) });
+  }else if(msg.content.startsWith("testb")) {
+    if(args.length == 0) return console.error("Erreur, pas d'argument");
+      const type = "bot";//user ou bot (par defaut bot est choisi)
+        dbfr.get(type, args).then(r => { console.log(r) });
   }
 });
 

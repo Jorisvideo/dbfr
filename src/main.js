@@ -19,9 +19,10 @@ class dbfr{
                 uri: `https://api.discordbots.fr/v1/bot/${this.client.user.id}`,
                 method: 'POST',
                 headers: {
-                    "api_key": this.apikey,
+                    "api-key": this.apikey,
+                    "Content-Type": "application/x-www-form-urlencoded"
                 },
-                body: {
+                form: {
                     shard: this.client.guilds.size,
                     serveurs: this.client.options.shardCount
                 },
@@ -46,7 +47,7 @@ class dbfr{
             return await request({
                 uri: `https://api.discordbots.fr/v1/${tpbotuser}/${args}`,
                 headers: {
-                    "api_key": this.apikey,
+                    "api-key": this.apikey,
                 },
                 json: true
             })
