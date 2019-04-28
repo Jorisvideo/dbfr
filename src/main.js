@@ -23,8 +23,8 @@ class dbfr{
                     "Content-Type": "application/x-www-form-urlencoded"
                 },
                 form: {
-                    shard: this.client.guilds.size,
-                    serveurs: this.client.options.shardCount
+                    serveurs: this.client.guilds.size,
+                    shard: this.client.options.shardCount
                 },
                 json: true
             });
