@@ -16,7 +16,7 @@ class dbfr{
 	async post() {
         try {
             return await request({
-                uri: `https://api.discordbots.fr/v1/bot/${this.client.user.id}`,
+                uri: `https://api.wonderbotlist.com/v1/bot/${this.client.user.id}`,
                 method: 'POST',
                 headers: {
                     "api-key": this.apikey,
@@ -45,7 +45,7 @@ class dbfr{
         }
         try {
             return await request({
-                uri: `https://api.discordbots.fr/v1/${tpbotuser}/${args}`,
+                uri: `https://api.wonderbotlist.com/v1/${tpbotuser}/${args}`,
                 headers: {
                     "api-key": this.apikey,
                 },

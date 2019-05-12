@@ -1,7 +1,7 @@
 {
   "name": "dbfr",
-  "version": "1.0.0",
-  "description": "Le module officiel de l'API Discord Bots FR",
+  "version": "1.0.2",
+  "description": "Le module officiel de l'API Wonder Bot List",
   "main": "index.js",
   "keywords": [
     "api",
