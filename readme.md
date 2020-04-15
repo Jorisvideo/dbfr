@@ -1,6 +1,6 @@
 <div align="center">
   <p>
-    <a href="https://wonderbotlist.com"><img src="https://discordbots.fr/img/logo.svg" width="100" height="100" alt="wonderbotlist.com" /></a>
+    <a href="https://wonderbotlist.com"><img src="https://wonderbotlist.com/img/logo.svg" width="100" height="100" alt="wonderbotlist.com" /></a>
   </p>
   <br />
   <p>
