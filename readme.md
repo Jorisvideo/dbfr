@@ -1,6 +1,6 @@
 <div align="center">
   <p>
-    <a href="https://discordbots.fr"><img src="https://discordbots.fr/img/logo.svg" width="100" height="100" alt="discordbots.fr" /></a>
+    <a href="https://wonderbotlist.com"><img src="https://discordbots.fr/img/logo.svg" width="100" height="100" alt="wonderbotlist.com" /></a>
   </p>
   <br />
   <p>
@@ -14,7 +14,7 @@
 </div>
 
 # Description
-dbfr est un module qui vous servira a poster les stats de vos bots sur l'API du site https://discordbots.fr/
+dbfr est un module qui vous servira a poster les stats de vos bots sur l'API du site https://wonderbotlist.com
 
 ## Installation
 `npm i dbfr -s`
