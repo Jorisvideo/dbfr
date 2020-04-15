@@ -1,5 +1,4 @@
 const request = require('request-promise-native');
-
 class dbfr{
 	
 	constructor(client, apikey){
@@ -23,7 +22,7 @@ class dbfr{
                     "Content-Type": "application/x-www-form-urlencoded"
                 },
                 form: {
-                    serveurs: this.client.guilds.size,
+                    serveurs: this.client.guilds.cache != null ? this.client.guilds.cache.size : this.client.guilds.size,
                     shard: this.client.options.shardCount
                 },
                 json: true
